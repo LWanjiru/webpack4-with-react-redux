@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/valentinogagliardi/webpack-4-quickstart.git"
+    "url": "git+https://github.com/LWanjiru/webpack4-with-react-redux.git"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/valentinogagliardi/webpack-4-quickstart/issues"
+    "url": "https://github.com/LWanjiru/webpack4-with-react-redux/issues"
   },
-  "homepage": "https://github.com/valentinogagliardi/webpack-4-quickstart#readme",
+  "homepage": "https://github.com/LWanjiru/webpack4-with-react-redux#readme",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.4",
