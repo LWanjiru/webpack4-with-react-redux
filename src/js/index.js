@@ -1,6 +1,12 @@
+import React from 'react';
+import { render } from 'react-dom';
+import { Provider } from 'react-redux';
 import store from './store/index';
-import { addArticle, viewArticle } from './actions/index';
+import App from './components/App';
 
-window.store = store;
-window.addArticle = addArticle;
-window.viewArticle = viewArticle;
+render(
+  <Provider store={store}>
+    <App />
+  </Provider>,
+  document.getElementById('app')
+);
